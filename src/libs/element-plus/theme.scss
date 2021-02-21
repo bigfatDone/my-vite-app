@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// reset theme variable
+//$--color-primary: #545c64;
+$--color-primary: #fc9153;
+
+$--font-path: 'node_modules/element-plus/lib/theme-chalk/fonts';
+
+@import "node_modules/element-plus/packages/theme-chalk/src/index.scss";
+
+@import 'node_modules/element-plus/lib/theme-chalk/display.css';
+
+@import "./iconfont.scss";
+
+@import "./reset.scss";
